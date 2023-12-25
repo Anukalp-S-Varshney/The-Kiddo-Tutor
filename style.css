@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: lightblue;
+}
+
+.container{
+    display: flex;
+    background-color: blue;
+    height: 140px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 10px 10px 5px pink;
+}
+
+.container img{
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.container h1{
+    font-size: 45px;
+    color: azure;
+    margin-top: 23px;
+    margin-left: 20px;
+}
+
+#twitter{
+    width: 75px;
+    margin-top: 15px;
+    margin-left: 750px;
+}
+
+.container-2 h1{
+    font-size: 45px;
+    color: #333;
+    margin-top: 40px;
+    font-style: italic;
+    margin-left: 60px
+}
+
+span{
+    color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+.container-2 p{
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-bottom: 40px;
+}
+
+.container-2 ul{
+    font-size: 30px;
+    font-weight: 900;
+    margin-left: 100px;
+    color: #ff4da6;
+}
+
+.container-2 button{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #ff6760;
+    font-weight: 900;
+    color: #fff;
+    border-radius: 10px;
+}
